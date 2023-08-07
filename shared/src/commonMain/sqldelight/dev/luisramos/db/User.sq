@@ -1,0 +1,2 @@
+findAllUserItems:
+SELECT * FROM item WHERE item.userId = :userId;
